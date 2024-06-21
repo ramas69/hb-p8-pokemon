@@ -1,0 +1,32 @@
+
+<div class="row" >
+    <div class="col s12 m4 "*ngFor=" let formation of formations" >
+      <div class="card" >
+        <div class="card-image">
+          <img [src]="formation.image" >
+          <span class="card-title">{{ formation.titre}}</span>
+        </div>
+        <div class="card-content">
+          <p>{{formation.stackTechnique}}</p>
+          <p>{{ formation.nombreDePlaces}}</p>
+          <p>{{ formation.dates}}</p>
+          <span>{{formation.tarif}}</span>
+          
+        </div>
+        
+  <!-- Modal Trigger -->
+   <!-- Modal Trigger -->
+   <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+   <!-- Modal Structure -->
+ 
+          
+      </div>
+    </div>
+  </div>
+
+<app-registration-form></app-registration-form>
+
+
+  
+  
