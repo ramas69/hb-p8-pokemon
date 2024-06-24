@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ServiceComponent } from './service.component';
+import { PokemonRedirectComponent } from './pokemon-redirect.component';
 
-describe('ServiceComponent', () => {
-  let component: ServiceComponent;
-  let fixture: ComponentFixture<ServiceComponent>;
+describe('PokemonRedirectComponent', () => {
+  let component: PokemonRedirectComponent;
+  let fixture: ComponentFixture<PokemonRedirectComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ServiceComponent]
+      imports: [PokemonRedirectComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ServiceComponent);
+    fixture = TestBed.createComponent(PokemonRedirectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

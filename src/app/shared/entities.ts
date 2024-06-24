@@ -39,4 +39,14 @@ export interface TypesPokemon {
 }
 
 
+export interface formationInterface {
+    image: string,
+      stackTechnique: string[],
+      dates: string,
+      titre: string,
+      nombreDePlaces: number,
+      tarif: number,
+}
+
+
 

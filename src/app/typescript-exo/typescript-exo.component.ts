@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MangaInterface } from '../entities';
+import { MangaInterface } from '../shared/entities';
 import { NgFor } from '@angular/common';
 
 @Component({

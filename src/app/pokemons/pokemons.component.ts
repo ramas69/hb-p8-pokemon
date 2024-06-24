@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { PokemonService } from '../pokemon.service';
-import { PokemonInterface } from '../entities';
+import { PokemonService } from '../shared/services/pokemon.service';
+import { PokemonInterface } from '../shared/entities';
 import { NgFor } from '@angular/common';
 import { PokemonDetailComponent } from '../pokemon-detail/pokemon-detail.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-pokemons',
   standalone: true,
-  imports: [NgFor, PokemonDetailComponent],
+  imports: [NgFor, PokemonDetailComponent, RouterLink],
   templateUrl: './pokemons.component.html',
   styleUrl: './pokemons.component.css'
 })

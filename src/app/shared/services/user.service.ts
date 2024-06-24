@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { UserInterface } from './entities';
+import { UserInterface } from '../entities';
 
 
 @Injectable({

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../user.service';
+import { UserService } from '../shared/services/user.service';
 import { NgFor } from '@angular/common';
-import { UserInterface } from '../entities';
+import { UserInterface } from '../shared/entities';
 
 @Component({
   selector: 'app-apropos',
